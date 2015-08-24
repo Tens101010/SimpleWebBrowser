@@ -1,0 +1,9 @@
+C:\Users\Tens\Desktop\Code Training\SimpleWebBrowser\bin\Debug\SimpleWebBrowser.exe.config
+C:\Users\Tens\Desktop\Code Training\SimpleWebBrowser\bin\Debug\SimpleWebBrowser.exe
+C:\Users\Tens\Desktop\Code Training\SimpleWebBrowser\bin\Debug\SimpleWebBrowser.pdb
+C:\Users\Tens\Desktop\Code Training\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.csprojResolveAssemblyReference.cache
+C:\Users\Tens\Desktop\Code Training\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.Form1.resources
+C:\Users\Tens\Desktop\Code Training\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.Properties.Resources.resources
+C:\Users\Tens\Desktop\Code Training\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.csproj.GenerateResource.Cache
+C:\Users\Tens\Desktop\Code Training\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.exe
+C:\Users\Tens\Desktop\Code Training\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.pdb
