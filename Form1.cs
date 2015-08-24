@@ -1,4 +1,12 @@
-﻿using System;
+﻿//Please note: This application is purely for my own education, to run through coding 
+//examples by following tutorials, and to just tinker around with coding.  
+//I know it’s bad practice to heavily comment code (code smell), but comments in all of my 
+//exercises will largely be left intact as this serves me 2 purposes:
+//    I want to retain what my original thought process was at the time
+//    I want to be able to look back in 1..5..10 years to see how far I’ve come
+//    And I enjoy commenting on things, however redundant this may be . . . 
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -52,7 +60,7 @@ namespace SimpleWebBrowser
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             // If the keystroke was enter then do this
-            if(e.KeyChar == (char)ConsoleKey.Enter)
+            if (e.KeyChar == (char)ConsoleKey.Enter)
             {
                 navigateToPage();
             }
@@ -64,7 +72,8 @@ namespace SimpleWebBrowser
             textBox1.Enabled = true;
             toolStripStatusLabel1.Text = "Navigation complete";
 
-            //Changes every picture on the webpage to the one specified 
+            //Changes every picture on the webpage to the one specified
+            //Comment this out to eliminate the silly image of Lord Voldermort 
             foreach (HtmlElement image in webBrowser1.Document.Images)
             {
                 image.SetAttribute("src", "http://img.humorsharing.com/media/images/1208/i_hilarious_google_suggestions_50223ffdb36b5.jpg");
@@ -73,8 +82,8 @@ namespace SimpleWebBrowser
 
         private void webBrowser1_ProgressChanged(object sender, WebBrowserProgressChangedEventArgs e)
         {
-            if(e.CurrentProgress > 0 && e.MaximumProgress > 0)
-            toolStripProgressBar1.ProgressBar.Value = (int)(e.CurrentProgress * 100 / e.MaximumProgress);
+            if (e.CurrentProgress > 0 && e.MaximumProgress > 0)
+                toolStripProgressBar1.ProgressBar.Value = (int)(e.CurrentProgress * 100 / e.MaximumProgress);
         }
     }
 }
